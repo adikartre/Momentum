@@ -129,6 +129,25 @@ body::before {
   font-size: 18px;
 }
 
+/* 로그아웃 버튼 */
+#logout-btn {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 1;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.6);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#logout-btn:hover {
+  background: rgba(255,255,255,0.15);
+}
+
 /* 로그인 폼 (처음에만 중앙) */
 #login-form {
   position: absolute;
