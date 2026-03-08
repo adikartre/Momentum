@@ -133,7 +133,7 @@ body::before {
 #login-form {
   position: absolute;
   left: 50%;
-  top: 58%;
+  top: 72%;
   transform: translateX(-50%);
   width: min(360px, 75vw);
   z-index: 2;
